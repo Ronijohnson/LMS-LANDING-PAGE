@@ -1,0 +1,383 @@
+
+.twinty{
+    max-width:1482px;
+     margin: 0 auto;
+     /* height: 2000px; */
+ }
+ /* body{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   } */
+   *{
+     margin: 0px;
+     padding: 0%;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   /* .ninty-persent{
+    margin-top: 10px;
+     font-weight: bold;
+     margin-right: 10px;
+      margin-right: 40px;
+   } */
+
+.top-nav{
+    margin-top: 7px;
+    font-size: 21px;
+    background-color:#E03249;
+    color: #E3E8F1;
+    border-radius: 10px 10px 0px 0px;
+}
+.MGMT{
+    margin-left: 23px;
+    margin-top: 10px;
+}
+.user-icon{
+    margin-top: 10px;
+}
+.nav-button{
+    margin-top: 19px;
+    width: 192px;
+    height: 29px;
+    border-radius: 18px;
+    background-color: white;
+    color: #E03249;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border-color:#E03249;
+}
+.study-today{
+    margin-right: 31px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bookx{
+    margin-right: 10px;
+}
+.st{
+    font-size: 14px;
+    margin-right: 20px;
+}
+.icons-nav{
+    color: black;
+    font-size: 36px;
+}
+.hr{
+    height: 20px;
+    background: lightgreen;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.svg{
+
+    width: 400px;
+    
+}
+.your-are-at{
+    font-size: 18px;
+    font-weight: bold;
+    /* margin-top: 36px;
+    margin-top: 8pc;
+    margin-bottom: 18px;
+    margin-top: 10pc; */
+}
+    .modules{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .lecture{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .righs{
+      font-size: 19px;
+      margin-left: 34PX;
+      COLOR: GRAY;
+    }
+    .Islam{
+      margin-left: 18px;
+      font-size: 18px;
+      color: gray;
+    }
+    .min1{
+      margin-left: 51px;
+      color: gray;
+      font-size: 17px;
+    }
+    .min2{
+      margin-left: 51px;
+      color: gray;
+      font-size: 17px;
+    }
+    .viiew-course{
+      width: 126px;
+    height: 38px;
+    margin-left: 14px;
+    font-weight: bold;
+    color: #E03249;
+
+}
+    .resume{
+      width: 125px;
+      height: 40px;
+      margin-left: 10px;
+      color: white;
+      background-color: #E03249;
+      font-weight: bold;
+      border-color: #E03249;
+      border-radius: 6px;
+  }
+  .container{
+   background-image: linear-gradient(160deg, white 60%, #fe517f9a);
+   border-radius: 0px 0px 10px 10px;
+  }
+  .bucket{
+    position: absolute;
+    right: 41%;
+    top: 54%;
+    font-size: 26px;
+    border: 1px solid white;
+    width: 41px;
+    text-align: center;
+    margin-top: 4px;
+    height: 40px;
+    color: white;
+    border-radius: 6px;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.hr2{
+  width: 626px
+}
+
+
+.responsive-button-1{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 16%;
+  bottom: 61%;
+}
+.responsive-button-2{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 16%;
+  bottom: 12%;
+} 
+.card-padding{
+  padding: 0px 20px;
+}
+    
+.flex-direction-col {
+    flex-direction: column;
+  }
+  .flex-direction-col-row {
+    flex-direction: column;
+  }
+  .flex-direction-row-col {
+    flex-direction: row;
+  }
+  .flex-view {
+    display: flex;
+  }
+  .flex-direction-row {
+    flex-direction: row;
+  }
+  .justify-content-c {
+    justify-content: center;
+  }
+  .justify-content-b {
+    justify-content: space-between;
+  }
+  .justify-content-a {
+    justify-content: space-around;
+  }
+  
+  @media only screen and (max-width: 768px){
+    
+   
+   .card-padding{
+     padding: 0px 20px;
+   }
+   
+    .flex-direction-row-col {
+      flex-direction: column;
+    }
+    .top-nav{
+      width: 100%;
+    }
+    .Islam{
+      font-size: 16px;
+    }
+    
+
+    .svg{
+      width: 300px;
+    }
+    .hr2{
+      width: 412px;
+    margin-top: 10px;
+    }
+    .your-are-at{
+      margin-top: 20px;
+    }
+    .container{
+      height: 400px;
+    }
+    .responsive-button{
+      position: absolute;
+    top: 92%;
+    right: 5%;
+    display: flex;
+    flex-direction: row;
+    }
+    .responsive-button-1{
+      position: absolute;
+      display: flex;
+      position: absolute;
+      right: 5%;
+      top: 38%;
+      flex-direction: row;
+    }
+    .responsive-button-2{
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      right: 5%;
+      top: 91%
+      
+    }
+  
+    
+    .nav-button{
+      display: none;
+    }
+    .MGMT{
+      width: 237px;
+      font-size: 16px;
+      margin-top: 22px;
+      font-weight: bold;
+    }
+    .bucket{
+      left: 71%;
+      top: 54%;
+    }
+    .min2{
+      position: absolute;
+      right: 5%;
+      top: 78%;
+    }
+    .min1{
+      position: absolute;
+      right: 5%;
+      top: 29%;
+
+    }
+    .righs{
+      font-size: 17px;
+    margin-left: 34PX;
+    COLOR: GRAY;
+    }
+  }
+  @media only screen and (max-width:480px) {
+   
+   
+    .card-padding{
+      padding: 0px 20px;
+    }
+   
+    .top-nav{
+     width: 100%;
+   }
+   .svg{
+     display: none ;
+   }
+   .study-today{
+     display: none;
+   }
+   .st{
+     display: none;
+   }
+   p{
+     font-size: 12px;
+   }
+   .your-are-at{
+    margin-left: 13px;
+    font-size: 15px;
+   }
+   .modules{
+    margin-left: 13px;
+    font-size: 14px;
+    margin-top: 7px;
+   }
+   .lecture{
+    margin-left: 14px;
+    font-size: 15px;
+   }
+   .hr2{
+    width: 306px;
+    margin-left: 10px;
+   }
+   .righs{
+    font-size: 12px;
+    margin-top: 7px;
+   }
+   .Islam{
+    font-size: 13px;
+   }
+   .responsive-button-1{
+    right: 14%;
+    top: 45%;
+   }
+   .min1{
+    position: absolute;
+    right: 7%;
+    top: 31%;
+    font-size: 13px;
+   }
+   .min2{
+    position: absolute;
+    right: 7%;
+    font-size: 13px;
+    top: 92%;
+}
+   
+   .MGMT{
+    width: 235px;
+    font-size: 12px;
+    margin-top: 19px;
+    font-weight: bold;
+   }
+   .responsive-button-2{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 11%;
+    top: 105%;
+   }
+   .bucket{
+    left: 88%;
+    font-size: 14px;
+    top: 64%;
+    width: 21px;
+    height: 23px;
+    text-align: center;
+    margin-top: 7px;
+   }
+   .flag{
+    position: absolute;
+    right: 84%;
+  }
+   
+
+
+  
+}
+
+  
+  
